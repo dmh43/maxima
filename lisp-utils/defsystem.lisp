@@ -1324,7 +1324,7 @@
    the binary is missing")
 (defvar *load-source-instead-of-binary* nil
   "If T, the system will load the source file instead of the binary.")
-(defvar *compile-during-load* :query
+(defvar *compile-during-load* t
   "If T, the system will compile source files during load if the
    binary file is missing. If :query, it will ask the user for
    permission first.")
